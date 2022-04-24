@@ -174,3 +174,12 @@ header h1{
         font-weight: bolder;
     }
 
+    .footer-ayuda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ff7300;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+
