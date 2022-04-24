@@ -193,10 +193,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     .htres {
         font-size: 30px;
-        text-shadow: 
-    3px 3px 1px rgb(238, 237, 237),
-    5px 5px 2px rgb(196, 196, 167),
-    8px 8px 3px rgb(93, 93, 193);
+        color: tomato
     ;
     }
 
@@ -205,6 +202,73 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         color: white;
         font-size: 29px;
         font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* gird area - rendimientos */
+
+    .aside-rendi {   
+        grid-area: aside;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    .htres {
+        grid-area: htres;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rendimientosA {
+        grid-area: videosA;
+    }
+
+    .rendimientosB {
+        grid-area: videosB;
+    }
+
+    .rendimientosC {
+        grid-area: videosC;
+    }
+
+    .rendimientosD {
+        grid-area: videosD;
+    }
+
+    .rendimientosE {
+        grid-area: videosE;
+    }
+
+    .rendimientosF {
+        grid-area: videosF;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    .aside-rendi {
+        grid-area: aside;
+    }
+
+    .padre-rendimientos h2 {
+        color: white;
+    }
+
+    .padre-rendimientos {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "aside aside"
+        "htres htres"
+        "videosA videosB"
+        "videosC videosD"
+        "videosE videosF"
+        "footer footer"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 50px 400px 400px 400px 100px;
     }
 
 
