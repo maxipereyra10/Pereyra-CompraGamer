@@ -5,6 +5,7 @@
 
 .banner img{
     width: 100%;
+    padding-top: 39px;
 }
 
 header {
@@ -51,6 +52,7 @@ header h1{
 
 .post-header {
     background-color: darkslategray;
+    padding-top: 120px;
 }
 
 aside img {
@@ -121,7 +123,7 @@ aside img {
 /* APLICAMOS ESTILOS PARA AYUDA */
 
 /* Le damos forma al header */
-
+/* 
 header {
     width: 100%;
     background-color: rgb(9, 15, 15);
@@ -182,7 +184,7 @@ header h1{
         color: #ff7300;
         background-color: black;
         font-family: Arial, Helvetica, sans-serif; 
-    }
+    } */
 
 
     /* AGREGAMOS ESTILOS A RENDIMIENTOS */
