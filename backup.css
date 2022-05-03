@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.disclaimer {
+/* .disclaimer {
     display: none;
 }
 
@@ -65,7 +65,7 @@ aside img {
 
 .index:hover {
     transform: scale(0.9);
-}
+} */
 
 
 /* APLICAMOS ESTILOS PARA PRODUCTOS */
@@ -127,7 +127,7 @@ aside img {
 /* APLICAMOS ESTILOS PARA AYUDA */
 
 /* Le damos forma al header */
-/* 
+
 header {
     width: 100%;
     background-color: rgb(9, 15, 15);
@@ -188,7 +188,7 @@ header h1{
         color: #ff7300;
         background-color: black;
         font-family: Arial, Helvetica, sans-serif; 
-    } */
+    }
 
 
     /* AGREGAMOS ESTILOS A RENDIMIENTOS */
