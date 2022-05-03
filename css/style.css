@@ -1,9 +1,18 @@
-.ayuda-header {
+.disclaimer {
+  display: none;
+}
+
+.banner img {
+  width: 100%;
+  padding-top: 39px;
+}
+
+header {
   width: 100%;
   background-color: rgb(9, 15, 15);
   position: fixed;
 }
-.ayuda-header .h-uno-header {
+header h1 {
   font-size: 40px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -32,38 +41,17 @@
   justify-content: space-evenly;
 }
 
-.aside-ayuda img {
+.post-header {
+  background-color: darkslategray;
+  padding-top: 120px;
+}
+
+aside img {
   width: 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.section-ayuda h2 {
-  padding: 10px;
-  margin: 10px;
-}
-.section-ayuda .lista-ayuda {
-  font-style: italic;
-  font-weight: bolder;
-}
-.section-ayuda .p-ayuda {
-  padding: 20px;
-  text-decoration: solid;
-  color: black;
-}
-
-.footer-prod {
-  display: flex;
-  border: 20px solid black;
-  font-size: 24px;
-  justify-content: center;
-  align-items: center;
-  color: #ff7300;
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
+.index:hover {
+  transform: scale(0.9);
 }
 
 /*# sourceMappingURL=style.css.map */
